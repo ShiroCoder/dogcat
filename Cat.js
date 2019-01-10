@@ -4,8 +4,4 @@ function Cat() {
 	eat(mouse);
 }
  
- var mouse = new mouse();
-
-function mouse () {
-	console.log('sqeeak');
-}
+module.exports = Cat;
