@@ -4,3 +4,5 @@ function Hooman() {
 Hooman.prototype.feed = function(pet) {
 	
 };
+
+module.exports = Hooman;

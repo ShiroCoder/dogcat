@@ -8,3 +8,5 @@ function Dog() {
 Dog.prototype.eat = function(bone) {
 	this.stomach.push(bone);
 };
+
+module.exports = Dog;
