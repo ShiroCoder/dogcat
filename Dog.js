@@ -1,6 +1,8 @@
 function Dog() {
 	this.name = name;
 	this.stomach = [];
+	this.weight = weight;
+	
 	console.log("Goof");
 }
 Dog.prototype.eat = function(bone) {
