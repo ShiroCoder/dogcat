@@ -7,7 +7,7 @@ function Dog(name,weight) {
 }
 Dog.prototype.goof = function() {
 	console.log("Goof");
-	// console.log("My name is "+chalk.blue(this.name) +"and i'm " +this.weight+" kg");
+	console.log("My name is "+chalk.blue(this.name) +"and i'm " +this.weight+" kg");
 };
 
 module.exports = Dog; 
